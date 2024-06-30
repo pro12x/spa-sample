@@ -1,4 +1,4 @@
 while true; do
     git pull
-    sleep 300;
+    sleep 60;
 done
