@@ -1,4 +1,31 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0 25vw;
+}
+
+.auth {
+    display: flex;
+    gap: 12px;
+}
+
+#app {
+    padding: 0 25vw;
+}
+
+.space {
+    flex: 1 1 auto;
+}
+
+/* body {
     --nav-width: 200px;
     margin: 0 0 0 var(--nav-width);
     font-family: 'Quicksand', sans-serif;
@@ -34,4 +61,4 @@ body {
 
 a {
     color: #009579;
-}
+} */
